@@ -10,17 +10,16 @@ function toggleMenu() {
   <aside class="sidebar" :class="{ active: isOpen }">
     <div class="sidebar-info">
       <figure class="avatar-box">
-        <img src="/images/my-avatar.png" alt="Azad Furkan ŞAKAR" width="80">
+        <img src="/images/my-avatar.png" alt="Paulo Henrique" width="80">
       </figure>
 
       <div class="info-content">
-        <h1 class="name" title="Azad Furkan ŞAKAR">
-          Azad Furkan ŞAKAR
+        <h1 class="name" title="Paulo Henrique">
+          Paulo Henrique
         </h1>
 
         <p class="title text-center xl:block flex items-center justify-center gap-1">
-          <span class="xl:after:content-[''] after:content-[',']">Civil Engineer</span>
-          <span>Web developer</span>
+          <span>FullStack developer</span>
         </p>
       </div>
 
@@ -45,7 +44,7 @@ function toggleMenu() {
               Email
             </p>
 
-            <a href="mailto:info@afsakar.com" class="contact-link">info@afsakar.com</a>
+            <a href="mailto:paulo.henriqueslima.46@gmail.com" class="contact-link">Paulo.henriqueslima.46@gmail.com</a>
           </div>
         </li>
 
@@ -59,7 +58,7 @@ function toggleMenu() {
               Github
             </p>
 
-            <a href="https://github.com/afsakar" class="contact-link" target="_blank">afsakar</a>
+            <a href="https://github.com/paulo4676" class="contact-link" target="_blank">Paulo</a>
           </div>
         </li>
 
@@ -73,7 +72,7 @@ function toggleMenu() {
               Linkedin
             </p>
 
-            <a href="https://tr.linkedin.com/in/afsakar" class="contact-link" target="_blank">Azad Furkan ŞAKAR</a>
+            <a href="https://www.linkedin.com/in/paulo-henrique-de-souza-lima-3b230b196/" class="contact-link" target="_blank">Paulo Henrique </a>
           </div>
         </li>
 
@@ -87,7 +86,7 @@ function toggleMenu() {
               Location
             </p>
 
-            <address>Diyarbakır, Turkey</address>
+            <address>Rio do sul, Brazil</address>
           </div>
         </li>
       </ul>
@@ -96,17 +95,10 @@ function toggleMenu() {
 
       <ul class="social-list">
         <li class="social-item">
-          <NuxtLink to="https://www.twitter.com/afsakar" class="social-link" target="_blank">
-            <ion-icon name="logo-twitter" />
-          </NuxtLink>
-        </li>
-
-        <li class="social-item">
-          <NuxtLink to="https://www.instagram.com/afsakar" class="social-link" target="_blank">
+          <NuxtLink to="https://www.instagram.com/p.hsl" class="social-link" target="_blank">
             <ion-icon name="logo-instagram" />
           </NuxtLink>
         </li>
-        <LangSwitcher2 />
       </ul>
     </div>
   </aside>
