@@ -44,7 +44,7 @@ function toggleMenu() {
               Email
             </p>
 
-            <a href="mailto:paulo.henriqueslima.46@gmail.com" class="contact-link">Paulo.henriqueslima.46@gmail.com</a>
+            <a href="mailto:Paulo.henriqueslima.46@gmail.com" class="contact-link">Paulo.henriqueslima.46@gmail.com</a>
           </div>
         </li>
 
@@ -58,7 +58,7 @@ function toggleMenu() {
               Github
             </p>
 
-            <a href="https://github.com/paulo4676" class="contact-link" target="_blank">Paulo</a>
+            <a href="https://github.com/paulo4676" class="contact-link" target="_blank">Paulo4676</a>
           </div>
         </li>
 
@@ -72,7 +72,7 @@ function toggleMenu() {
               Linkedin
             </p>
 
-            <a href="https://www.linkedin.com/in/paulo-henrique-de-souza-lima-3b230b196/" class="contact-link" target="_blank">Paulo Henrique </a>
+            <a href="https://www.linkedin.com/in/paulo-henrique-de-souza-lima-3b230b196/" class="contact-link" target="_blank">Paulo Henrique</a>
           </div>
         </li>
 
@@ -99,6 +99,7 @@ function toggleMenu() {
             <ion-icon name="logo-instagram" />
           </NuxtLink>
         </li>
+        <LangSwitcher2 />
       </ul>
     </div>
   </aside>
