@@ -43,32 +43,32 @@ const { data: services } = await useFetch('/api/services')
     </header>
 
     <section class="about-text">
-      <p>
-        I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media.
-        I enjoy
-        turning complex problems into simple, beautiful and intuitive designs.
-      </p>
-
-      <p>
-        My job is to build your website so that it is functional and user-friendly but at the same time attractive.
-        Moreover, I
-        add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
-        across your
-        message and identity in the most creative way. I created web design for many famous brand companies.
-      </p>
+      <div class="row">
+        <div class="col-md-6">
+          <p>
+            👷 Atualmente cursando B.Tech em ciência da computação pela IFC <br>
+            🔭 Diploma de Técnico em Informática pelo SENAC <br>
+            💼 Estou procurando oportunidades/funções de **Estágio (PPO)**. <br>
+            💬 Pergunte-me sobre C#/PostgresSql/Mysql/PHP-Dev <br>
+            🤔 Estou procurando ajuda para me destacar em Programação Competitiva <br>
+          </p>
+        </div>
+        <div class="col-md-6">
+          <figure class="avatar-box">
+            <img src="/images/my-avatar.png" alt="Paulo Henrique" width="90">
+          </figure>
+        </div>
+      </div>
     </section>
-
     <!-- service -->
 
-    <section class="service">
+    <!--  <section class="service">
       <h3 class="h3 service-title">
-        What i'm doing?
       </h3>
-
       <ul class="service-list">
         <ServiceItem v-for="service in services" :key="service.id" :service="service" />
       </ul>
-    </section>
+    </section> -->
     <!-- clients -->
     <!-- <section class="clients">
       <h3 class="h3 clients-title">
