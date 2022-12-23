@@ -19,51 +19,28 @@ useHead({
         </div>
 
         <h3 class="h3">
-          Education
+          Escolaridade
         </h3>
       </div>
 
       <ol class="timeline-list">
         <li class="timeline-item">
           <h4 class="h4 timeline-item-title">
-            University school of the arts
+            Intituto Federal Catarinense (IFC)
           </h4>
-
-          <span>2007 — 2008</span>
-
+          <span>2020 — Present</span>
           <p class="timeline-text">
-            Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-            quas molestias
-            exceptur.
+            Bacharelado em Ciencias da computação
           </p>
         </li>
 
         <li class="timeline-item">
           <h4 class="h4 timeline-item-title">
-            New york academy of art
+            Senac Itaquera
           </h4>
-
-          <span>2006 — 2007</span>
-
+          <span>2018 — 2020</span>
           <p class="timeline-text">
-            Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda
-            est
-            omnis..
-          </p>
-        </li>
-
-        <li class="timeline-item">
-          <h4 class="h4 timeline-item-title">
-            High school of art and design
-          </h4>
-
-          <span>2002 — 2004</span>
-
-          <p class="timeline-text">
-            Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed
-            consequuntur
-            magni dolores
-            eos.
+            Análise e Desenvolvimento de Sistemas
           </p>
         </li>
       </ol>
@@ -76,52 +53,109 @@ useHead({
         </div>
 
         <h3 class="h3">
-          Experience
+          Experiencia
         </h3>
       </div>
 
       <ol class="timeline-list">
         <li class="timeline-item">
           <h4 class="h4 timeline-item-title">
-            Creative director
+            Cubus Soluções
           </h4>
-
-          <span>2015 — Present</span>
-
-          <p class="timeline-text">
-            Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-            qvuas
-            molestias
-            exceptur.
-          </p>
+          <span>Desenvolvedor Back-End</span>
+          <div class="div-inline">
+            <div class="icon-box paddingBox">
+              <h5 class="h5">
+                C#
+              </h5>
+            </div>
+            <div class="icon-box paddingBox">
+              <h5 class="h5">
+                SQL Server
+              </h5>
+            </div>
+          </div>
         </li>
 
         <li class="timeline-item">
           <h4 class="h4 timeline-item-title">
-            Art director
+            Tidas Ltda
           </h4>
-
-          <span>2013 — 2015</span>
-
-          <p class="timeline-text">
-            Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-            quas molestias
-            exceptur.
-          </p>
+          <span>Desenvolvedor Full Stack</span>
+          <div class="div-inline">
+            <div class="icon-box paddingBox">
+              <h5 class="h5">
+                Html
+              </h5>
+            </div>
+            <div class="icon-box paddingBox">
+              <h5 class="h5">
+                CSS
+              </h5>
+            </div>
+            <div class="icon-box paddingBox">
+              <h5 class="h5">
+                Javascript
+              </h5>
+            </div>
+            <div class="icon-box paddingBox">
+              <h5 class="h5">
+                Python
+              </h5>
+            </div>
+            <div class="icon-box paddingBox">
+              <h5 class="h5">
+                PHP
+              </h5>
+            </div>
+            <div class="icon-box paddingBox">
+              <h5 class="h5">
+                PostgreSQL
+              </h5>
+            </div>
+          </div>
         </li>
 
         <li class="timeline-item">
           <h4 class="h4 timeline-item-title">
-            Web designer
+            Digiliza Ltda
           </h4>
-
-          <span>2010 — 2013</span>
-
-          <p class="timeline-text">
-            Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-            quas molestias
-            exceptur.
-          </p>
+          <span>Desenvolvedor Full Stack</span>
+          <div class="div-inline">
+            <div class="icon-box paddingBox">
+              <h5 class="h5">
+                Vue.js
+              </h5>
+            </div>
+            <div class="icon-box paddingBox">
+              <h5 class="h5">
+                Laravel
+              </h5>
+            </div>
+            <div class="icon-box paddingBox">
+              <h5 class="h5">
+                PostgreSQL
+              </h5>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <h4 class="h4 timeline-item-title">
+            Magazord LTDA
+          </h4>
+          <span>Desenvolvedor BackEnd</span>
+          <div class="div-inline">
+            <div class="icon-box paddingBox">
+              <h5 class="h5">
+                PHP
+              </h5>
+            </div>
+            <div class="icon-box paddingBox">
+              <h5 class="h5">
+                PostgreSQL
+              </h5>
+            </div>
+          </div>
         </li>
       </ol>
     </section>
@@ -187,3 +221,18 @@ useHead({
     </section>
   </article>
 </template>
+
+<style scoped>
+.div-inline {
+  display: inline-flex;
+  margin-top: 5px;
+}
+.paddingBox{
+  margin-right: 10px;
+}
+.icon-box{
+  min-width: 48px;
+  width: auto;
+  padding: 10px;
+}
+</style>
