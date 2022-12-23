@@ -162,61 +162,223 @@ useHead({
 
     <section class="skill">
       <h3 class="h3 skills-title">
-        My skills
+        Skills
       </h3>
-
       <ul class="skills-list content-card">
+        <!-- #region frontend  -->
+        <h3 class="h3 skills-title">
+          Front-end
+        </h3>
         <li class="skills-item">
           <div class="title-wrapper">
             <h5 class="h5">
-              Web design
-            </h5>
-            <data value="80">80%</data>
-          </div>
-
-          <div class="skill-progress-bg">
-            <div class="skill-progress-fill" style="width: 80%;" />
-          </div>
-        </li>
-
-        <li class="skills-item">
-          <div class="title-wrapper">
-            <h5 class="h5">
-              Graphic design
-            </h5>
-            <data value="70">70%</data>
-          </div>
-
-          <div class="skill-progress-bg">
-            <div class="skill-progress-fill" style="width: 70%;" />
-          </div>
-        </li>
-
-        <li class="skills-item">
-          <div class="title-wrapper">
-            <h5 class="h5">
-              Branding
-            </h5>
-            <data value="90">90%</data>
-          </div>
-
-          <div class="skill-progress-bg">
-            <div class="skill-progress-fill" style="width: 90%;" />
-          </div>
-        </li>
-
-        <li class="skills-item">
-          <div class="title-wrapper">
-            <h5 class="h5">
-              WordPress
+              VUE.JS
             </h5>
             <data value="50">50%</data>
           </div>
-
           <div class="skill-progress-bg">
             <div class="skill-progress-fill" style="width: 50%;" />
           </div>
         </li>
+        <li class="skills-item">
+          <div class="title-wrapper">
+            <h5 class="h5">
+              HTML
+            </h5>
+            <data value="100">100%</data>
+          </div>
+          <div class="skill-progress-bg">
+            <div class="skill-progress-fill" style="width: 100%;" />
+          </div>
+        </li>
+        <li class="skills-item">
+          <div class="title-wrapper">
+            <h5 class="h5">
+              CSS
+            </h5>
+            <data value="100">100%</data>
+          </div>
+          <div class="skill-progress-bg">
+            <div class="skill-progress-fill" style="width: 100%;" />
+          </div>
+        </li><li class="skills-item">
+          <div class="title-wrapper">
+            <h5 class="h5">
+              jAVASCRIPT
+            </h5>
+            <data value="100">100%</data>
+          </div>
+          <div class="skill-progress-bg">
+            <div class="skill-progress-fill" style="width: 100%;" />
+          </div>
+        </li>
+        <li class="skills-item">
+          <div class="title-wrapper">
+            <h5 class="h5">
+              SASS
+            </h5>
+            <data value="50">50%</data>
+          </div>
+          <div class="skill-progress-bg">
+            <div class="skill-progress-fill" style="width: 50%;" />
+          </div>
+        </li><li class="skills-item">
+          <div class="title-wrapper">
+            <h5 class="h5">
+              JQUERY
+            </h5>
+            <data value="50">50%</data>
+          </div>
+          <div class="skill-progress-bg">
+            <div class="skill-progress-fill" style="width: 50%;" />
+          </div>
+        </li>
+      <!-- #endregion frontend -->
+        <!-- #region backend  -->
+        <h3 class="h3 skills-title">
+          BACK-END
+        </h3>
+        <li class="skills-item">
+          <div class="title-wrapper">
+            <h5 class="h5">
+              PHP
+            </h5>
+            <data value="100">100%</data>
+          </div>
+          <div class="skill-progress-bg">
+            <div class="skill-progress-fill" style="width: 100%;" />
+          </div>
+        </li>
+        <li class="skills-item">
+          <div class="title-wrapper">
+            <h5 class="h5">
+              LARAVEL
+            </h5>
+            <data value="80">80%</data>
+          </div>
+          <div class="skill-progress-bg">
+            <div class="skill-progress-fill" style="width: 80%;" />
+          </div>
+        </li>
+        <li class="skills-item">
+          <div class="title-wrapper">
+            <h5 class="h5">
+              DJANGI
+            </h5>
+            <data value="50">50%</data>
+          </div>
+          <div class="skill-progress-bg">
+            <div class="skill-progress-fill" style="width: 50%;" />
+          </div>
+        </li><li class="skills-item">
+          <div class="title-wrapper">
+            <h5 class="h5">
+              PYTHON
+            </h5>
+            <data value="80">80%</data>
+          </div>
+          <div class="skill-progress-bg">
+            <div class="skill-progress-fill" style="width: 80%;" />
+          </div>
+        </li>
+        <li class="skills-item">
+          <div class="title-wrapper">
+            <h5 class="h5">
+              C#
+            </h5>
+            <data value="80">80%</data>
+          </div>
+          <div class="skill-progress-bg">
+            <div class="skill-progress-fill" style="width: 80%;" />
+          </div>
+        </li>
+        <!-- #endregion backend -->
+        <!-- #region database  -->
+        <h3 class="h3 skills-title">
+          DATABASE
+        </h3>
+        <li class="skills-item">
+          <div class="title-wrapper">
+            <h5 class="h5">
+              MYSQL
+            </h5>
+            <data value="100">100%</data>
+          </div>
+          <div class="skill-progress-bg">
+            <div class="skill-progress-fill" style="width: 100%;" />
+          </div>
+        </li>
+        <li class="skills-item">
+          <div class="title-wrapper">
+            <h5 class="h5">
+              POSTGESQL
+            </h5>
+            <data value="100">100%</data>
+          </div>
+          <div class="skill-progress-bg">
+            <div class="skill-progress-fill" style="width: 100%;" />
+          </div>
+        </li>
+        <li class="skills-item">
+          <div class="title-wrapper">
+            <h5 class="h5">
+              SQLSERVER
+            </h5>
+            <data value="100">100%</data>
+          </div>
+          <div class="skill-progress-bg">
+            <div class="skill-progress-fill" style="width: 100%;" />
+          </div>
+        </li>
+        <!-- #endregion database -->
+        <!-- #region CSV  -->
+      <h3 class="h3 skills-title">
+          CSV
+        </h3>
+        <li class="skills-item">
+          <div class="title-wrapper">
+            <h5 class="h5">
+              GIT HUB
+            </h5>
+            <data value="80">80%</data>
+          </div>
+          <div class="skill-progress-bg">
+            <div class="skill-progress-fill" style="width: 80%;" />
+          </div>
+        </li>
+        <li class="skills-item">
+          <div class="title-wrapper">
+            <h5 class="h5">
+              GITLAB
+            </h5>
+            <data value="80">80%</data>
+          </div>
+          <div class="skill-progress-bg">
+            <div class="skill-progress-fill" style="width: 80%;" />
+          </div>
+        </li>
+        <li class="skills-item">
+          <div class="title-wrapper">
+            <h5 class="h5">
+              BITBUCKET
+            </h5>
+            <data value="80">80%</data>
+          </div>
+          <div class="skill-progress-bg">
+            <div class="skill-progress-fill" style="width: 80%;" />
+          </div>
+        </li><li class="skills-item">
+          <div class="title-wrapper">
+            <h5 class="h5">
+              TORTOISE SVN
+            </h5>
+            <data value="80">80%</data>
+          </div>
+          <div class="skill-progress-bg">
+            <div class="skill-progress-fill" style="width: 80%;" />
+          </div>
+        </li>
+      <!-- #endregion CSV -->
       </ul>
     </section>
   </article>
