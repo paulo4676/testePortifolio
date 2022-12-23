@@ -64,11 +64,13 @@
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
   --orange-yellow-crayola: hsl(45, 100%, 72%);
-  --vegas-gold: hsl(37, 90%, 51%);
   --light-gray: hsl(0, 0%, 84%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
   --bittersweet-shimmer: hsl(0, 43%, 51%);
-  --text-gradient-yellow: hsl(37, 90%, 51%);
+
+  /* color site */
+  --vegas-gold: hsl(280, 83%, 52%);
+  --text-gradient-yellow: hsl(80, 90%, 51%);
 
   /**
    * typography
